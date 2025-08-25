@@ -1,5 +1,5 @@
 
-// 🎯 Part 1: Basics (Variables, Conditionals)
+// Part 1: Basics (Variables, Conditionals)
 document.getElementById("btn-basics").addEventListener("click", () => {
   let age = prompt("Enter your age:");
   age = Number(age);
@@ -11,7 +11,7 @@ document.getElementById("btn-basics").addEventListener("click", () => {
   }
 });
 
-// ❤️ Part 2: Functions
+// Part 2: Functions
 function greetUser(name) {
   return `Hello, ${name}! Welcome to JavaScript.`;
 }
@@ -28,7 +28,7 @@ document.getElementById("btn-function").addEventListener("click", () => {
     `${greeting} Total price = ${total}`;
 });
 
-// 🔁 Part 3: Loops
+// Part 3: Loops
 document.getElementById("btn-loop").addEventListener("click", () => {
   const list = document.getElementById("loop-list");
   list.innerHTML = ""; // clear old items
@@ -50,7 +50,7 @@ document.getElementById("btn-loop").addEventListener("click", () => {
   }
 });
 
-// 🌐 Part 4: DOM Manipulation
+// Part 4: DOM Manipulation
 document.getElementById("btn-change").addEventListener("click", () => {
   document.getElementById("dom-text").textContent = "🎉 Text has been changed!";
 });
